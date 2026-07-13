@@ -9,6 +9,7 @@ import BackToTop from '@/components/BackToTop';
 import Toast from '@/components/Toast';
 import { useScrollSpy } from '@/hooks/useScrollSpy';
 import { useStickyAfter } from '@/hooks/useStickyAfter';
+import avatar from '../images/avatar.jpg'
 
 const SECTION_IDS = ['section-experience', 'section-education'];
 const TAB_ITEMS = [

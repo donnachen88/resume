@@ -1,3 +1,6 @@
+import avatar from '@/images/avatar.jpg';
+import avatar2 from '@/images/avatar2.jpg';
+
 // 简历静态数据 — 便于后续替换与维护
 
 export interface Profile {
@@ -54,11 +57,11 @@ export const resumeData: ResumeData = {
     tags: '1 年经验 ｜ AI Coding ｜ 视觉交互 ｜ 内容体验',
     heroImages: [
       {
-        src: 'https://s41.ax1x.com/2026/07/04/pm0cmp8.jpg',
+        src: avatar,
         alt: '人物肖像',
       },
       {
-        src: 'https://s41.ax1x.com/2026/07/04/pm0gGbd.jpg',
+        src: avatar2,
         alt: '工作场景',
       },
     ],
@@ -83,8 +86,8 @@ export const resumeData: ResumeData = {
           skills: [
             { name: '设计还原', highlighted: true },
             { name: 'AI Coding', highlighted: true },
-            { name: '需求分析', highlighted: true },
-            { name: 'PRD', highlighted: true },
+            { name: 'PDE', highlighted: true },
+            { name: '原型仓库', highlighted: true },
           ],
         },
         {
@@ -99,7 +102,7 @@ export const resumeData: ResumeData = {
             { name: 'Figma', highlighted: true },
             { name: 'AI友好设计', highlighted: true },
             { name: 'UI组件库' , highlighted: true},
-            { name: '交互', highlighted: true },
+            { name: '设计skills', highlighted: true },
           ],
         },
       ],
